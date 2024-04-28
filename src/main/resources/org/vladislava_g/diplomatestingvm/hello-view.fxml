@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1300.0" styleClass="mainPane" stylesheets="@first-scene-styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.vladislava_g.diplomatestingvm.firstScene.MainController">
+   <children>
+      <VBox fx:id="mainVBox" layoutX="252.0" layoutY="205.0" prefHeight="385.0" prefWidth="820.0" styleClass="mainVBox" style="-fx-background-color: rgba(217, 217, 217, 0.65); -fx-background-radius: 20px;" stylesheets="@first-scene-styles.css">
+         <children>
+            <Button fx:id="buttonTheory" mnemonicParsing="false" prefHeight="62.0" prefWidth="732.0" styleClass="buttonTheory" stylesheets="@first-scene-styles.css"  style="rgba(217, 217, 217, 0.65); -fx-background-radius: 20px; -fx-text-fill: #000000;" text="Теория">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="35.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="buttonLecture" mnemonicParsing="false" prefHeight="66.0" prefWidth="732.0" stylesheets="@first-scene-styles.css" style="rgba(217, 217, 217, 0.65); -fx-background-radius: 20px; -fx-text-fill: #000000;" text="Лекции">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="30.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="buttonTest" mnemonicParsing="false" prefHeight="66.0" prefWidth="732.0" stylesheets="@first-scene-styles.css" style="rgba(217, 217, 217, 0.65); -fx-background-radius: 20px; -fx-text-fill: #000000;" text="Тесты">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="30.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+         <padding>
+            <Insets left="50.0" top="30.0" />
+         </padding>
+      </VBox>
+   </children>
+</Pane>
